@@ -74,33 +74,58 @@ PublicEcon-Roadmap/
 2. 此时页面会有提示，点击 **Pull Request** (或者 **Contribute**) 按钮。
 3. 再次确认点击 **Create Pull Request**。
 4. 完成！这相当于你告诉管理员：“我写好了，请检查合并”。
-
 ---
 
-## 📝 内容规范 (Content Standards)
+## 📝 内容规范与录入指南 (Content Standards & Workflow)
 
-为了保持图谱整洁，请遵循以下规范：
+为了保持 Public Econ Roadmap 知识图谱的连通性，所有新增内容请严格遵循以下规范。
 
-### 1. 笔记放置位置
+### 1. 📂 文件归档位置 (File Location)
 
-- **研究问题** ➡️ `10_Problem_Set/` 下的对应子文件夹。
-- **文献笔记** ➡️ `20_Literature_Notes/` 文件夹。
+- **研究问题 (Topics/Problems)**
+    - 存放于：`10_Problem_Set/` 下对应的子分类文件夹中。
+    - *示例：* `10_Problem_Set/Taxation Theory & Structure/Optimal_Income_Tax.md`
+- **文献笔记 (Literature Notes)**
+    - 存放于：`20_Literature_Notes/` 文件夹。
+    - *命名规范：* 使用 `Author_Year_Title` 格式（尽量扁平化，不要再建子文件夹）。
+    - *示例：* `20_Literature_Notes/Saez_2001_Labor_Elasticity.md`
 
-### 2. 模板使用
+### 2. 📑 模板使用 (Templates)
 
-请务必使用 `99_Templates/` 下的标准模板，以保证元数据（Metadata）统一，方便系统自动索引。
+请务必使用 `99_Templates/` 下的标准模板创建笔记，以保证 Frontmatter 元数据统一，确保网页能正确索引。
 
-### 3. 常用标签 (Tags)
+- 新增文献时 ➡️ 使用 `Template_Literature`
+- 新增课题时 ➡️ 使用 `Template_Problem`
 
-我们在笔记开头的标签区域使用以下状态：
+### 3. 🔗 核心动作：建立关联 (The Golden Rule of Linking)
 
-- `#Open_Question`: 尚无定论的开放性问题
-- `#Solved`: 理论框架已基本成熟
-- `#Urgent_Policy`: 现实政策急需回应的问题
+**这是最重要的一步**。孤立的文献没有价值，必须将其挂载到具体的 **研究问题** 树上。
 
+在创建文献笔记时，**必须** 在正文顶部包含指向 `10_Problem_Set` 的链接：
 
---- 
+- **关联大类**：链接到子文件夹的 `index`。
+    - *写法：* `所属领域: [[10_Problem_Set/Taxation Theory & Structure/index|🏛️ Taxation]]`
+- **关联具体问题**：链接到具体的 `.md` 文件。
+    - *写法：* `解决的核心问题: [[10_Problem_Set/Taxation Theory & Structure/Optimal_Taxation|🔑 最优税收理论]]`
 
+> 💡 **为什么这么做？**
+> 这样当你浏览“最优税收”的页面时，Quartz 的 Backlinks 功能会自动告诉你：“Saez (2001) 这篇论文关联了本话题”。
+
+### 4. 🏷️ 常用状态标签 (Tags)
+
+请在笔记开头的 `tags: [...]` 区域准确标记状态：
+
+**对于研究问题 (in Problem Set):**
+- `#Open_Question`: 尚无定论、值得深挖的开放性问题。
+- `#Solved`: 理论框架已基本成熟，主要是回顾经典。
+- `#Urgent_Policy`: 现实政策急需回应的问题（高优先级）。
+
+**对于文献 (in Literature Notes):**
+- `#Must_Read`: 该领域的奠基之作，必读。
+- `#Empirical`: 实证类文章 (Data-driven)。
+- `#Theoretical`: 理论模型类文章 (Model-driven)。
+
+---
 ## ⚠️ 许可说明
 
 文献 PDF 原文请自行获取，不直接存储于本仓库。

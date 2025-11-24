@@ -5,7 +5,7 @@ journal:
 tags:
   - literature
 ---
-[[../10_Problem_Set/Taxation Theory and Structure/最优所得税的非线性特征]]
+[[../10_Problem_Set/Taxation_Theory_and_Structure/最优所得税的非线性特征]]
 
 # [Author_Year_Title]
 

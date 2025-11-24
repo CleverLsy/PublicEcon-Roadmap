@@ -23,5 +23,5 @@ title: 🗺️ Public Economics Research Roadmap
 ---
 
 ### ⚡️ 快速导航
-- [[10_Problem_Set/Taxation Theory and Structure/index|🏛️ 直达：Taxation 专题]]
-- [[10_Problem_Set/Public Expenditure and Public Investment/index|💸 直达：Expenditure 专题]]
+- [[10_Problem_Set/Taxation_Theory_and_Structure/index|🏛️ 直达：Taxation 专题]]
+- [[10_Problem_Set/Public_Expenditure_and_Public_Investment/index|💸 直达：Expenditure 专题]]
