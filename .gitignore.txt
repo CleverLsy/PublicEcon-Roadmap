@@ -1,0 +1,4 @@
+.obsidian/workspace         <-- 你的窗口布局，不需要上传
+.obsidian/workspace.json
+.obsidian/appearance.json   <-- 你的主题设置，通常也不强行同步
+.DS_Store                   <-- Mac系统垃圾文件
