@@ -19,6 +19,16 @@ tags:
 - 数据：
 - 识别策略：
 
+Test 公式的网页渲染
+$$
+Y_{ipt} = \alpha + X_{pt}\gamma +\epsilon_{ipt}
+$$
+
+Test 代码块的网页渲染
+```{stata}
+reghdfe Y X, absorb(i t)
+```
+
 ## 结论 (Conclusion)
 - 
 
