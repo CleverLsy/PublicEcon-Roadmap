@@ -27,8 +27,8 @@ PublicEcon-Roadmap/
 │   └── Roadmap_Overview.md    # [总控台] 全局仪表盘与导航索引
 │
 ├── 10_Problem_Set/            # [核心] 研究问题库 (按子领域分类)
-│   ├── Taxation/              # 税收理论与政策 (e.g. 最优所得税)
-│   ├── Public Expenditure/    # 公共支出分析
+│   ├── Taxation Theory & Structure/  # 税收理论与政策 (e.g. 最优所得税)
+│   ├── Public Expenditure and Public Investment/    # 公共支出分析
 │   └── ...
 │
 ├── 20_Literature_Notes/       # [支撑] 文献精读卡片

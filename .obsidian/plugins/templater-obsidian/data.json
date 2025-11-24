@@ -15,10 +15,6 @@
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "10_Problem_Set",
-      "template": "99_Templates/Template_研究问题.md"
-    },
-    {
       "folder": "20_Literature_Notes",
       "template": "99_Templates/Template_文献卡片.md"
     }
